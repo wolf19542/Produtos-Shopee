@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página inicial -->
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Produtos -->
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/tenis-nike.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/ps5.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/jbl.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/moto-g15.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/cadeira-gamer.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/copo-termico.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/tripe-celular.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wolf19542.github.io/Produtos-Shopee/potes-cozinha.html</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
