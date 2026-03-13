@@ -3,25 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Ofertas Shopee - Catálogo Online</title>
-  <meta name="description" content="Ofertas exclusivas da Shopee: tênis Nike, PS5, fone JBL, Moto G15, cadeira gamer e muito mais.">
-  <meta name="keywords" content="Shopee, ofertas, tênis Nike, PS5, JBL, Moto G15, cadeira gamer, copo térmico, tripé celular, potes cozinha">
+  <meta name="description" content="Catálogo com os melhores produtos em oferta.">
 
-  <!-- Meta tag do Google Search Console -->
+  <!-- Código de verificação do Google -->
   <meta name="google-site-verification" content="uDA4mVZ7ieiBGZ27_YEb_cgB-KgNHQXo1bG0x6598i0" />
 
   <style>
-    body {font-family: Arial, sans-serif; background:#F9F9F9; margin:0; padding:0;}
-    header {background:#ff6600; color:#fff; padding:20px; text-align:center;}
-    h1 {margin:0;}
-    .container {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; padding:30px;}
-    .card {background:#fff; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); overflow:hidden; transition:transform 0.3s;}
-    .card:hover {transform:scale(1.03);}
-    .card img {width:100%; height:200px; object-fit:cover;}
-    .card h2 {padding:15px; font-size:18px; color:#333;}
-    .card p {padding:15px; color:#666;}
-    .card a {display:block; margin:15px; padding:12px; background:#ff6600; color:#fff; text-align:center; text-decoration:none; border-radius:6px; font-weight:bold;}
-    .card a:hover {background:#cc5200;}
-    footer {background:#333; color:#fff; text-align:center; padding:15px; margin-top:30px;}
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: orange; color: white; text-align: center; padding: 20px; }
+    .produtos { display: flex; flex-wrap: wrap; justify-content: center; margin: 20px; }
+    .card { border: 1px solid #ccc; border-radius: 8px; width: 250px; margin: 10px; padding: 15px; text-align: center; }
+    .card img { width: 100%; height: auto; border-radius: 5px; }
+    .card h2 { font-size: 18px; margin-bottom: 10px; }
+    .card p { font-size: 14px; margin-bottom: 15px; }
+    .card a { background: orange; color: white; padding: 10px; text-decoration: none; border-radius: 5px; }
+    footer { background: #f2f2f2; text-align: center; padding: 15px; margin-top: 20px; }
   </style>
 </head>
 <body>
@@ -29,59 +25,67 @@
     <h1>Ofertas Shopee - Catálogo Online</h1>
   </header>
 
-  <div class="container">
+  <section class="produtos">
     <div class="card">
       <img src="tenis-nike.jpg" alt="Tênis Nike">
       <h2>Tênis Nike</h2>
       <p>Conforto e estilo para o dia a dia.</p>
-      <a href="https://shopee.com.br/tenis-nike">Ver oferta</a>
+      <a href="https://shopee.com.br/search?keyword=tenis%20nike">Ver oferta</a>
     </div>
 
     <div class="card">
       <img src="ps5.jpg" alt="PlayStation 5">
       <h2>PlayStation 5</h2>
       <p>Nova geração de jogos com gráficos incríveis.</p>
-      <a href="https://shopee.com.br/ps5">Ver oferta</a>
+      <a href="https://shopee.com.br/search?keyword=playstation%205">Ver oferta</a>
     </div>
 
-  <div class="card">
-  <img src="jbl.jpg" alt="Fone JBL">
-  <h2>Fone JBL</h2>
-  <p>Qualidade de som incrível para música e chamadas.</p>
-  <a href="https://shopee.com.br/jbl">Ver oferta</a>
-</div>
+    <div class="card">
+      <img src="jbl.jpg" alt="Fone JBL">
+      <h2>Fone JBL</h2>
+      <p>Qualidade de som incrível para música e chamadas.</p>
+      <a href="https://shopee.com.br/search?keyword=fone%20jbl">Ver oferta</a>
+    </div>
 
-<div class="card">
-  <img src="moto-g15.jpg" alt="Moto G15">
-  <h2>Moto G15</h2>
-  <p>Ótimo desempenho e bateria duradoura.</p>
-  <a href="https://shopee.com.br/moto-g15">Ver oferta</a>
-</div>
+    <div class="card">
+      <img src="moto-g15.jpg" alt="Moto G15">
+      <h2>Moto G15</h2>
+      <p>Ótimo desempenho e bateria duradoura.</p>
+      <a href="https://shopee.com.br/search?keyword=moto%20g15">Ver oferta</a>
+    </div>
 
-<div class="card">
-  <img src="cadeira-gamer.jpg" alt="Cadeira Gamer">
-  <h2>Cadeira Gamer</h2>
-  <p>Conforto e ergonomia para longas sessões de jogo.</p>
-  <a href="https://shopee.com.br/cadeira-gamer">Ver oferta</a>
-</div>
+    <div class="card">
+      <img src="cadeira-gamer.jpg" alt="Cadeira Gamer">
+      <h2>Cadeira Gamer</h2>
+      <p>Conforto e ergonomia para longas sessões de jogo.</p>
+      <a href="https://shopee.com.br/search?keyword=cadeira%20gamer">Ver oferta</a>
+    </div>
 
-<div class="card">
-  <img src="copo-termico.jpg" alt="Copo Térmico">
-  <h2>Copo Térmico</h2>
-  <p>Mantém sua bebida quente ou fria por horas.</p>
-  <a href="https://shopee.com.br/copo-termico">Ver oferta</a>
-</div>
+    <div class="card">
+      <img src="copo-termico.jpg" alt="Copo Térmico">
+      <h2>Copo Térmico</h2>
+      <p>Mantém sua bebida quente ou fria por horas.</p>
+      <a href="https://shopee.com.br/search?keyword=copo%20termico">Ver oferta</a>
+    </div>
 
-<div class="card">
-  <img src="tripe-celular.jpg" alt="Tripé para Celular">
-  <h2>Tripé para Celular</h2>
-  <p>Estabilidade para fotos e vídeos.</p>
-  <a href="https://shopee.com.br/tripe-celular">Ver oferta</a>
-</div>
+    <div class="card">
+      <img src="tripe-celular.jpg" alt="Tripé para Celular">
+      <h2>Tripé para Celular</h2>
+      <p>Estabilidade para fotos e vídeos.</p>
+      <a href="https://shopee.com.br/search?keyword=tripe%20celular">Ver oferta</a>
+    </div>
 
-<div class="card">
-  <img src="potes-cozinha.jpg" alt="Potes de Cozinha">
-  <h2>Potes de Cozinha</h2>
-  <p>Organização prática para sua cozinha.</p>
-  <a href="https://shopee.com.br/potes-cozinha">Ver oferta</a>
-</div>
+    <div class="card">
+      <img src="potes-cozinha.jpg" alt="Potes de Cozinha">
+      <h2>Potes de Cozinha</h2>
+      <p>Organização prática para sua cozinha.</p>
+      <a href="https://shopee.com.br/search?keyword=potes%20cozinha">Ver oferta</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Catálogo Shopee - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
